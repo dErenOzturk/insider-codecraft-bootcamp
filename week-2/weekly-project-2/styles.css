@@ -1,0 +1,138 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.complete-btn {
+  background-color: #007bff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #b32c3a;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+#task-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 5px auto;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.task-priority {
+  font-weight: bold;
+  color: #ff9800;
+  background-color: #fff3e0;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.task-description {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.completed {
+  color: white;
+}
+
+.completed .task-description,
+.completed .task-title {
+  color: white;
+}
+
+.completed .task-priority {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
