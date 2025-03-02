@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Listesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Görev Listesi</h1>
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Görev Başlığı" required>
+            <textarea id="task-description" placeholder="Açıklama(Opsiyonel)"></textarea>
+            <div>
+                <label><input type="radio" name="priority" value="Düşük" required>Düşük</label>
+                <label><input type="radio" name="priority" value="Orta">Orta</label>
+                <label><input type="radio" name="priority" value="Yüksek">Yüksek</label>
+            </div>
+            <button type="submit">Ekle</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
