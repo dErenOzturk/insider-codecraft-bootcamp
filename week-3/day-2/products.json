@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Telefon",
+    "price": "15,000 TL",
+    "link": "#"
+  },
+  {
+    "name": "Laptop",
+    "price": "35,000 TL",
+    "link": "#"
+  },
+  {
+    "name": "Kulaklık",
+    "price": "2,000 TL",
+    "link": "#"
+  }
+]
