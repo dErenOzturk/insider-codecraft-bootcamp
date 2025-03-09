@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#formContainer {
+  display: none;
+  background: #f9f9f9;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+#basariMesaji {
+  display: none;
+  color: green;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input,
+select {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
