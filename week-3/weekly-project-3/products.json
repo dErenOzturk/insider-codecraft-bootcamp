@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ürün 1",
+    "price": "50 TL",
+    "link": "#",
+    "details": "Bu ürün 50TL'dir."
+  },
+  {
+    "name": "Ürün 2",
+    "price": "100 TL",
+    "link": "#",
+    "details": "Bu ürün 100TL'dir"
+  },
+  {
+    "name": "Ürün 3",
+    "price": "150 TL",
+    "link": "#",
+    "details": "Bu ürün 150TL'dir"
+  }
+]
